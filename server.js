@@ -74,7 +74,7 @@ return a.timestamp - b.timestamp;
 app.listen(port,()=>{
     console.log(`listening on ${port}`);
 })
-postmqan
+
 //pusher and cors
 
 //network access  add ip allow from anywhere and confirm
