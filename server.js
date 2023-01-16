@@ -56,7 +56,7 @@ mongoMesaages.create(dbmessage,(err,data)=>{
 
 
 app.get('/conversation',(req,res)=>{
-    mongoMesaages.find({},(err,data)=>{
+    mongoMesaages.find((err,data)=>{
         if(err){
             res.status(500).send(err);
         }
